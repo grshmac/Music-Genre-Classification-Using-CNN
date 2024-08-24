@@ -1,0 +1,83 @@
+body {
+    font-family: 'Droid Sans', arial, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    background-image: url("../images/genre1.webp");
+    background-size: cover; 
+    background-position: center; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card Styling */
+.container .card {
+    border-radius: 15px;
+    border: none;
+    background: lavender;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.container h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: slategray;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #555;
+}
+
+/* Input Styling */
+input[type="file"] {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="file"]:focus {
+    border-color: pink;
+}
+
+/* Button Styling */
+.container .btn-success {
+    background-color: pink;
+    border-color: plum;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container .btn-success:hover {
+    background-color:lightblue;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Container Styling */
+.container {
+    margin-top: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .btn-success {
+        font-size: 14px;
+    }
+}
