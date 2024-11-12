@@ -1,5 +1,6 @@
 numpy
 flask
-librosa
 pandas
 scikit-learn
+librosa
+matplotlib

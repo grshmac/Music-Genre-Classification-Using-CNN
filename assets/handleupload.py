@@ -24,7 +24,7 @@ def upload_file():
     if file and file.filename.endswith('.wav'):
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
         file.save(file_path)
-
+    else:
      return jsonify({'error': 'Invalid file format. Please upload a WAV file.'})
 
 def process_file(file_path):
