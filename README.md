@@ -2,15 +2,6 @@ This is our project on ML where we choose Music Genre Classification as final ye
 
 # Project: Music-Genre-Classification
 -	We are working on Anaconda Prompt:
--	Download Tensorflow: tensorflow==2.10.0
--	Requires the latest pip
-pip install --upgrade pip
-
--   Current stable release for CPU and GPU
-pip install tensorflow
-
--   Or try the preview build (unstable)
-pip install tf-nightly
 
 -	Go inside the project directory from anaconda
 
