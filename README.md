@@ -1,6 +1,12 @@
 This is our project on ML where we choose Music Genre Classification as final year project
 
 # Project: Music-Genre-Classification
+Approach: Classify the audio file from 10 given genres using CNN trained model
+- Mel- spectograms: to extract feature (imp) from audio signal, visual repre of audio signal. Shows how energy of the signal is distributed over diff freq over time but the freq scale is transformed so that it matches human sound perceiving nature. X-axis is time and Y-axis is frequency. Then fed it to CNN and train. So, our challenge is to extract the important feature and build a mel-spectogram.
+
+- CNN: CNN are basically used in image related problems, time-series analysis, text classification, etc. It is part of Deep Learning and is used to deal with image dataset and then train our model to classify the images. CNN is divided into three process: Convolution, Pooling and Fully-Connected.
+
+# Project Environment
 -	We are working on Anaconda Prompt:
 
 -	Go inside the project directory from anaconda
@@ -25,7 +31,7 @@ This is our project on ML where we choose Music Genre Classification as final ye
 
 #  (To solely use the application) How to use the flask app:
 -   Clone the git repo to VSCode application
--	Use python terminal, install flask
+-	Use python terminal, activate conda env, install flask
 -   run the commands:
 conda activate <your_env_name>
 flask run
