@@ -27,13 +27,14 @@ pip install tf-nightly
 -	From Kaggle: https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data
 
 #  To use Colab for the project ML implementation:
--   Sign in to Colab with you gmail account
+-   Sign in to Colab with your gmail account
 -	Upload dataset folder, requirements.txt, and rest of files to your drive inside MGC folder.
 -	Give access to drive
 -   Run the .ipynb files
 
-#  How to use the flask app:
--	Use anaconda, install flask, open vscode:
+#  (To solely use the application) How to use the flask app:
+-   Clone the git repo to VSCode application
+-	Use python terminal, install flask
 -   run the commands:
 conda activate <your_env_name>
 flask run
