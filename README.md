@@ -1,5 +1,3 @@
-This is our project on ML where we choose Music Genre Classification as final year project
-
 # Project: Music-Genre-Classification
 Approach: Classify the audio file from 10 given genres using CNN trained model
 - Mel- spectograms: to extract feature (imp) from audio signal, visual repre of audio signal. Shows how energy of the signal is distributed over diff freq over time but the freq scale is transformed so that it matches human sound perceiving nature. X-axis is time and Y-axis is frequency. Then fed it to CNN and train. So, our challenge is to extract the important feature and build a mel-spectogram.
