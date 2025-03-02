@@ -10,10 +10,14 @@ Approach: Classify the audio file from 10 given genres using CNN trained model
 -	Go inside the project directory from anaconda
 
 -   install all the requirements through this file
-  $pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
--   create a compatible environment 
-  $conda create --name <your_env_name> python=3.10 -y
+-   create a compatible environment
+```
+conda create --name <your_env_name> python=3.10 -y
+```
 
 -   Now the environment is created and we are ready to go with our application
 -   Interact through Jupyter-Notebook by opening notebook through anaconda prompt
