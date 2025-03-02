@@ -35,7 +35,9 @@ conda create --name <your_env_name> python=3.10 -y
 -   Clone the git repo to VSCode application
 -	Use python terminal, activate conda env, install flask
 -   run the commands:
+```
 conda activate <your_env_name>
+```
 flask run
 -	http://127.0.0.1:5000  go to this port
 -	Then, it should show below page:
