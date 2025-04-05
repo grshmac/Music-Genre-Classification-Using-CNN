@@ -12,7 +12,34 @@ body {
     height: 100vh;
 }
 
-/* Card Styling */
+/*navbar*/
+.navbar {
+    width: 80%;
+    background-color:palegoldenrod;/*slight transparency*/
+    padding: 5px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: pink !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: pink !important;
+}
+
+/*main container*/
+.container {
+    margin-top: 30px;
+}
+
 .container .card {
     border-radius: 15px;
     border: none;
@@ -26,6 +53,7 @@ body {
     font-weight: bold;
     color: slategray;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .form-label {
@@ -33,7 +61,6 @@ body {
     color: #555;
 }
 
-/* Input Styling */
 input[type="file"] {
     padding: 10px;
     border: 2px solid #ddd;
@@ -62,9 +89,10 @@ input[type="file"]:focus {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* Container Styling */
-.container {
-    margin-top: 50px;
+/* Audio Player */
+audio {
+    width: 100%;
+    margin-top: 10px;
 }
 
 /* Responsive Design */
