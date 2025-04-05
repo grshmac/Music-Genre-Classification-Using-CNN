@@ -38,9 +38,9 @@ pip install -r requirements.txt
 -	http://127.0.0.1:5000  go to this port
 -	Then, it should show below page:
 
-![alt text](applic_screenshots/image.png)
+![alt text](applic_screenshots/MGC1.png)
 
 -	Give your audio input to the application through “Choose file” button
 -	Then you easily get your prediction as:
 
-![alt text](applic_screenshots/image-1.png)
+![alt text](applic_screenshots/MGC2.png)
